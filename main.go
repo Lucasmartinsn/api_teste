@@ -14,7 +14,7 @@ type projeto struct {
 type pessoa struct {
 	ID         string `json:"id"`
 	Nome       string `json:"nome"`
-	Id_Projeto string `json:"profissao"`
+	Id_Projeto string `json:"Id_Projeto"`
 	Id_equipe  string `json:"id_equipe"`
 }
 
